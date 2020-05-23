@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="zh">
+	<head>
+	<meta charset="utf-8">
+	<title>汉家衣裳首页</title>
+		<style>
+			<!--
+			/*背景图片*/
+			body{
+				background:url("img/005.jpg");
+				background-size: 100%;
+				}
+			/*汉家衣裳网站名居中*/
+			h1{
+				font-family:"楷体";
+				letter-spacing: normal;
+				font-weight:bold;
+				text-align:center;
+			}
+			/*导航栏样式*/
+			.navbar{
+				float: center;
+				display: block;
+				color: #000;
+				text-align: center;
+				padding: 14px 20px;
+				text-decoration: none;
+				border: 0px solid;
+				font-family: KaiTi;
+				}
+			.navbar a{
+				display: inline-block;
+				width: auto;
+				background-color: #B6B282;
+				text-align: center;
+				padding: 0px;
+				font-size: 30px;
+				margin: 0px 5px 0px 5px;
+				text-decoration: none;
+				color: #000;
+				}
+			.navbar a:hover{
+				background-color: #5E5E5E;
+				}
+			a:link{text-decoration: none}　　/*设置未访问时的超链接样式*/
+			a:hover{color:#5D9D65; text-decoration: none}　　/*设置鼠标移动到链接上的样式　*/
+				/*中间滚轮图片背景图*/
+			.background{
+				width:900px;
+				height:400px;
+				margin-left: 200px;
+				background: url("img/背景图.jpg");
+				}
+				/*标题的小图标盒子*/
+			.tip{
+				margin-left:120px;
+				height:60px;
+				}
+				/*tip图标大小*/
+			.tippicture{
+				width:25px;
+				height:25px;
+				float:left;
+				}
+				/*返回登录界面*/
+			  .button {
+				float:right;
+				background-color:#B4D58C;
+				border:none;
+				color:white;
+				padding: 12px 12px;
+				margin-right:100px;
+				text-align: center;
+				font-size: 16px;
+				cursor: pointer;
+				}
+				/*tip文字字体设置*/
+			#title{
+				font-family:"宋体";	
+				}
+			/*主要的内容区域*/
+			.main{
+				font-family: KaiTi;
+				margin-left:80px; /*左外边距*/
+				margin-right:80px; /*右外边距*/
+				margin-bottom: auto;/*下外边距*/
+				letter-spacing: 1px; /*字间距*/
+				word-spacing: 2px; 
+				line-height: 1.5em; /*行高*/
+				text-align: justify;
+				text-indent:2em;
+				color:#000
+				}
+			/*页脚颜色样式*/
+			footer{
+				background-color:#9F983F;
+				clear:both;
+				text-align:center;
+				margin-bottom:0;
+				}
+			-->
+		</style>
+	</head>
+
+	<body>
+		<br>
+		<h1>汉家衣裳</h1>
+			<div class="navbar"> <!--分类超链接-->
+					<a target="_blank" href="index.html">首页</a>
+					<a target="_blank" href="../page2-The name of the account/page2-The name of the account.html">名称记载</a>
+					<a target="_blank" href="../page3-Historical development/page3-Historical development.html">历史发展</a>
+					<a target="_blank" href="../page4-Clothing structure/page4-Clothing structure.html">服饰结构</a>
+					<a target="_blank" href="../page5-Decorative accessories/page5-Decorative accessories.html">纹饰配件</a>
+					<a target="_blank" href="../page6-Shape and type/page6-Shape and type.html">形制类型</a>
+					<a target="_blank" href="../page7-Dress culture/page7-Dress culture.html">服饰文化</a>
+					<a target="_blank" href="../page8-Status influence/page8-Status influence.html" class="right">地位影响</a>
+					<a href="page1-Log in.html">
+						<button class="button">登录</button>
+					</a>
+				</div>
+		
+		
+		<div class="tip"> <!--小标题-->
+			<img src="img/首页.png" alt="首页图标" class="tippicture">
+			<h2 id="title">首页</h2>
+
+			
+		</div>
+			<br>
+		
+		<div class="background">  <!--滑动页面-->
+			<marquee direction="right" onmouseover="this.stop();" onmouseout="this.start();" >
+				<img src="img/汉服1.jpg" alt="汉服1"/>		 
+				<img src="img/汉服2.jpg" alt="汉服2"/>
+				<img src="img/汉服3.jpg" alt="汉服3"/>
+				<img src="img/汉服4.jpg" alt="汉服4"/>
+	 	 	</marquee>
+		</div>
+		<br><br>
+		
+		<footer>
+				&copy; 2020 hanjiayishang.com
+		</footer>
+	</body>
+</html>
+
